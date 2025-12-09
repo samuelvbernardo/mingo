@@ -99,14 +99,6 @@
    npm run build
    npm run start
    ```
-
-## Deploy na Vercel
-
-1. **Na Vercel**
-   - Importe o repositório
-   - Configure Environment Variables (mesmas do `.env.local`)
-   - Configure URLs de callback no Google Cloud e GitHub
-
 ## Estrutura do Projeto
 
 ```
