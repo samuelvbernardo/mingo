@@ -1,17 +1,24 @@
-import { Schema } from 'mongoose';
+import type { Schema } from "mongoose"
 
-export const BaseModel = {
-  createdAt: {
-    type: Date,
-    default: Date.now,
-    immutable: true,
+export interface IBaseModel {
+  _id: string
+  createdAt: Date
+  updatedAt: Date
+  schemaVersion: number
+}
+
+export const baseSchemaFields = {
+  schemaVersion: {
+    type: Number,
+    default: 1,
   },
-  updatedAt: {
-    type: Date,
-    default: Date.now,
-  },
-  deletedAt: {
-    type: Date,
-    default: null,
-  },
-};
+}
+
+export const baseSchemaOptions = {
+  timestamps: true,
+}
+
+export function applyBaseSchema<T extends Schema>(schema: T): T {
+  schema.add(baseSchemaFields)
+  return schema
+}
