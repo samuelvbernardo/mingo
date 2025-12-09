@@ -41,15 +41,8 @@
 
 ### Perfil do Usuário
 - [x] Editar nome do usuário
-- [x] Upload de avatar (base64)
+- [x] Upload de avatar
 - [x] Buscar usuários por nome ou email
-
-### Interface
-- [x] Design responsivo (Mobile e Desktop)
-- [x] Timestamps em Português BR
-- [x] Logo Mingo circular
-- [x] Favicon customizado
-- [x] Branding visual consistente
 
 ## Configuração
 
