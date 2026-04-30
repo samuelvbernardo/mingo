@@ -1,10 +1,5 @@
 # Mingo - Web II
 
-## Equipe
-- Paulo Henrique
-- Victor Wesley
-- Samuel Victor
-
 ## Descrição
 **Mingo** é uma aplicação de chat em tempo real que permite usuários se conectarem, criar salas de conversa e trocar mensagens com persistência em banco de dados NoSQL. O sistema oferece uma experiência moderna e responsiva para comunicação síncrona entre múltiplos usuários.
 
